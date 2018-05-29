@@ -1,5 +1,5 @@
 # Examination Management System
-A simple C# project . 
+
 
 ### ABOUT THE PROJECT
 - It is a project of Examination Management System.
@@ -35,20 +35,4 @@ A simple C# project .
 - Only admin has the authority to change the data.
 - No chances of leak like the traditional examination system.
 - Only admin can change and add the questions of the examination.
-- The answering process begins with student and all the database is hidden.
-
-### WHAT WE USE TO BUILD THIS PROJECT
-- Windows Form Application
-- C# Programming language
-- Sql Server Database
-
-### TO DO 
-- make it online
-- add seat plan feauture
-- add written exam
-- and more 
-
-### OUR TEAM
-- [Saikat Sharma](saikat-s.github.io)
-- [Tamim Dari Chowdury](www.facebook.com/)
-- [Belal Hossain](www.facebook.com/)
+- The answering process begins
