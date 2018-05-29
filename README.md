@@ -38,7 +38,7 @@
 - The answering process begins
 
 ### OUR TEAM
-- [Saikat Sharma](saikat-s.github.io)
-- [Tamim Dari Chowdury](www.facebook.com/)
-- [Belal Hossain](www.facebook.com/)
+- [Saikat Sharma](https://saikat-s.github.io)
+- [Tamim Dari Chowdury](https://www.facebook.com/)
+- [Belal Hossain](https://www.facebook.com/)
 
