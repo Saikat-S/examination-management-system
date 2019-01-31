@@ -39,7 +39,7 @@ namespace ExaminationSystem
 
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                 con.Open();
 
                 string newcon = "select  * from qsettable2 where Course='" + course + "'";
@@ -190,7 +190,7 @@ namespace ExaminationSystem
 
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                 con.Open();
 
                 string newcon = "select  * from signuptable1 where ID='" + Id + "'";
@@ -224,7 +224,7 @@ namespace ExaminationSystem
             s3 = rating.ToString();
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                 con.Open();
 
                 string newcon = "update signuptable1 set Totalmark='" + s1 + "',Examno='" + s2 + "',Rating='" + s3 + "' where ID='" + Id + "';";
