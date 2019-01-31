@@ -48,7 +48,7 @@ namespace ExaminationSystem
 
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                 con.Open();
 
                 string newcon = "select  * from qsettable2 where Course='" + course + "'";
