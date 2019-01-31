@@ -125,7 +125,7 @@ namespace ExaminationSystem
         {
             try
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                 con.Open();
 
                 // string newcon = "insert into qsettable(Semester,Course,Q1, Q2, Q3) VALUES ('" + comboBox1.Text + "','" + comboBox2.Text + "','" + textBox1.Text + "', '" + textBox2.Text + "','" + textBox3.Text + "')";
