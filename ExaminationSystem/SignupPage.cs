@@ -43,7 +43,7 @@ namespace ExaminationSystem
             if (pas1 == pas2)
             {
                 try {
-                    SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=sa;Password=369@saikat");
+                    SqlConnection con = new SqlConnection("Data Source=DESKTOP-JT5TE1G\\SQLEXPRESS;Initial Catalog=signup;User ID=your_id;Password=you_pass");
                     con.Open();
 
                     string newcon = "insert into signuptable1(Name,ID,Year, Semester, Password,Totalmark,Examno,Rating) VALUES ('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "', '" + textBox4.Text + "','" + textBox5.Text + "','"+totalMark+ "','" + examNo + "', '" + rating + "' )";
