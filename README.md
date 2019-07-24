@@ -43,3 +43,8 @@
 - [Belal Hossain](https://www.facebook.com/)
 - [Ripon Roy](https://www.facebook.com/)
 
+License
+----
+
+MIT
+
